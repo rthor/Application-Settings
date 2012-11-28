@@ -1,0 +1,16 @@
+[
+	{ "keys": ["ctrl+s"], "command": "toggle_side_bar" },
+	{ "keys": ["ctrl+l"], "command": "split_selection_into_lines" },
+	{ "keys": ["super+shift+u"], "command": "unfold_all" },
+	{ "keys": ["super+shift+f"], "command": "fold_by_level", "args": {"level": 1} },
+    { "keys": ["n", "n"], "command": "advanced_new_file",
+        "context": [ { "key": "setting.command_mode", "operand": true } ]},
+    { "keys": ["j", "j"], "command": "exit_insert_mode",
+        "context": [
+            { "key": "setting.command_mode", "operand": false },
+            { "key": "setting.is_widget", "operand": false }
+        ]},
+	{ "keys": ["super+shift+n"], "command": "advanced_new_file"},
+    { "keys": ["super+v"], "command": "paste_and_indent" },
+    { "keys": ["super+shift+v"], "command": "paste" }
+]
