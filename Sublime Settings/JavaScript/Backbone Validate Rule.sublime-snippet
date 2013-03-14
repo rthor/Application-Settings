@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+if ( attr.${1:property} ) {
+    if ( !errors.hasOwnProperty('${1:property}') ) { errors.${1:property} = {}; }
+    errors.${1:property}.${2:action} = ${3:messege};
+}
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>bbv</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>

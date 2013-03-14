@@ -1,17 +1,21 @@
 {
 	"bold_folder_labels": true,
 	"caret_style": "phase",
-	"color_scheme": "Packages/User/Slime.tmTheme",
+	"color_scheme": "Packages/User/Themes/tomorrow/Tomorrow-Night-Bright.tmTheme",
+	"detect_slow_plugins": false,
 	"font_face": "Menlo",
-	"font_size": 16.0,
+	"font_size": 15.0,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"ZenCoding"
+		"Nodejs"
 	],
+	"line_padding_bottom": 5,
+	"line_padding_top": 0,
 	"scroll_past_end": true,
 	"theme": "Soda Dark.sublime-theme",
 	"translate_tabs_to_spaces": true,
-	"trim_trailing_white_space_on_save": true
+	"trim_trailing_white_space_on_save": true,
+	"word_wrap": true
 }

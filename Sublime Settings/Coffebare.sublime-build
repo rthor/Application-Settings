@@ -1,0 +1,4 @@
+{
+    "cmd": ["coffee","-bc", "$file"],
+    "selector" : "source.coffee"
+}

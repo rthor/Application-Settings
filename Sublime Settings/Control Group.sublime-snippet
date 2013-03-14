@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+<div class="control-group">
+	<label class="control-label" for="${1:name}">${2:Nafn}:</label>
+	<div class="controls">
+		<input type="text" name="${1:name}" id="${1:name}" class="${3:width-100p}" placeholder="${4:name}">
+		${5:<p class="help-block">${6:In addition to freeform text, any HTML5 text-based input appears like so.}</p>}
+	</div>
+</div>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>fcg</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

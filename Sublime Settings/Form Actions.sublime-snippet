@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+<div class="form-actions">
+	<input type="submit" class="${1:btn}"/>
+</div>${5}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ffa</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

@@ -1,0 +1,16 @@
+{
+	"files":
+	{
+		"frameless": "https://raw.github.com/jonikorpi/Frameless/master/frameless.scss",
+		"html5boilerplate": "https://raw.github.com/h5bp/html5-boilerplate/master/index.html",
+		"jquery": "http://code.jquery.com/jquery.min.js",
+		"lesshat": "https://raw.github.com/CSSHat/LESSHat/master/lesshat.less",
+		"normalize": "https://raw.github.com/necolas/normalize.css/master/normalize.css",
+		"requireJS": "http://requirejs.org/docs/release/2.1.2/minified/require.js",
+		"useJS": "http://dl.dropbox.com/u/17147445/usejs/0.2.0/use.min.js"
+	},
+	"packages":
+	{
+		"html5_boilerplate": "https://github.com/h5bp/html5-boilerplate/zipball/master"
+	}
+}
